@@ -17,7 +17,7 @@ public class ImageGridActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.image_grid_activity);
 
         gridView = (GridView) findViewById(R.id.GridView01);
 
